@@ -1,0 +1,416 @@
+/*
+Оформление NavBar'а
+ */
+body
+{
+    background:url(../Image/background.jpg);
+    background-attachment: fixed
+}
+.catigory-1
+{
+    padding-left: 50%;
+    padding-right: 50%;
+}
+.catigory-2
+{
+
+}
+.navbarTWO
+{
+    padding-left: 0;
+    min-width: 900px;
+    height: 100px
+}
+.general
+{
+    display: inline-block;
+    width: 50%;
+    min-width: 600px;
+    height: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.center
+{
+    float: left;
+    width: 13.5%;
+}
+.leftBtn
+{
+float: left;
+    width: 24.4%;
+    margin-top: 25px;
+    margin-right: 20%;
+}
+
+.rightBtn
+{
+    float: left;
+    margin-top: 25px;
+    margin-left: 20%;
+}
+#aboutUS
+{
+    width: 100px;
+    background-color: #fbbe18;
+    color: black;
+}
+#s{
+    padding-right: 12px;
+    padding-left: 12px;
+}
+/*
+Стили центральной кнопки
+ */
+.d {
+    margin-left: 0%;
+    margin-right: 50px;
+    text-align: center;
+}
+.s {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    width: 136px;
+    height: 100px;
+}
+@-moz-keyframes rotate {
+     0% {transform: rotate(0deg);}
+     100% {transform: rotate(-360deg);}
+ }
+@-webkit-keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+}
+@-o-keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+}
+
+@keyframes rotate {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(-360deg);}
+}
+
+.round {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    letter-spacing: -.065em;
+    font-family: "Hammersmith One", sans-serif;
+    -webkit-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    box-shadow: 2px 2px 7px rgba(0,0,0,.2);
+    border-radius: 300px;
+    z-index: 1;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.round:hover {
+    width: 130%;
+    height: 130%;
+    left: -15%;
+    top: -15%;
+    font-size: 33px;
+    padding-top: 38px;
+    -webkit-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    -o-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    -moz-box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    box-shadow: 5px 5px 10px rgba(0,0,0,.3);
+    z-index: 2;
+    border-size: 10px;
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+a.green {
+    font-size: calc(5px + 1vw);
+    font-family: Monotype Corsiva;
+    background-color: rgb(0,0,0);
+    color: rgb(255,0,23);
+    border-color: rgba(0,0,0,.6);
+}
+
+a.green:hover {
+    font-size: calc(5px + 1vw);
+    color: rgba(1,151,171,1);
+}.round span.round {
+     font-size: calc(5px + 1vw);
+     display: block;
+     opacity: 0;
+     -webkit-transition: all .5s ease-in-out;
+     -moz-transition: all .5s ease-in-out;
+     -o-transition: all .5s ease-in-out;
+     transition: all .5s ease-in-out;
+     font-size: 1px;
+     border: none;
+     padding: 40% 20% 0 20%;
+     color: #FF00FF;
+ }
+
+.round span:hover {
+    opacity: .85;
+    font-size: 16px;
+    -webkit-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    -moz-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    -o-text-shadow: 0 1px 1px rgba(0,0,0,.5);
+    text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+.green span {
+    background: rgba(0,63,71,.7);
+}
+.aboutUs
+{
+    width: auto;
+    height: auto;
+    margin: 20px 15%;
+    padding-bottom: 20px;
+    background-color: #fbbe18;
+}
+.main
+{
+    width: auto;
+    height: 450px;
+    margin: 20px 15%;
+    background-color: #fbbe18;
+}
+.Registration
+{
+    background-color: #fbbe18;
+    width: auto;
+    height: auto;
+    margin: 20px 15%;
+}
+.wrap {
+    height: auto;
+    width: auto;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 5px;
+    background: #fbbe18;
+}
+.gradient {
+    margin-top: 0px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: auto;
+    padding-left: 20px;
+    width: 100%;
+    border: 10px solid transparent;
+    border-image: linear-gradient(to left, transparent 0%, lightgoldenrodyellow 100%);
+    border-image-slice: 1;
+}
+.reg
+{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    margin: 7px
+}
+#f
+{
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 10%;
+    color: red;
+    font-family: ‘Comic Sans MS’, cursive;
+}
+#a
+{
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-left: 20%;
+}
+#d
+{
+    font-size: 20px;
+    color: red;
+}
+#g
+{
+ font-size: 20px;
+}
+.Admin
+{
+    display: inline-block;
+    width: auto;
+}
+.mass
+{
+    float: left;
+    margin-top: 2.5%;
+}
+.AdminColor
+{
+    float: left;
+    color: red;
+    margin-top: 2.5%;
+    margin-left: 4px;
+}
+#lastNew
+{
+    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+/*
+css рамка для вывода записей на главной
+*/
+.blok {
+    position:relative;
+    width:auto;
+    min-width: 900px;
+    padding-top: 2px;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom:20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: auto;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.blok:before,
+.blok:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+
+.blok p {
+    font-size:16px;
+    font-weight:bold;
+}
+/*Внутренние блоки*/
+.blok2 {
+    position:relative;
+    width:auto;
+    min-width: 800px;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom:20px;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 1em;
+    margin-bottom: auto;
+    background:#fff;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.blok2:before,
+.blok2:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+
+.blok2 p {
+    font-size:16px;
+    font-weight:bold;
+}
+#lastNew2
+ {
+     width: auto;
+ }
+.mainindex
+{
+    width: auto;
+    min-width: 1200px;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+#line
+{
+    background-color: red;
+    height: 1px;
+}
+.poster
+{
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    height: 300px;
+}
+#clear
+{
+    width: 500px;
+    height:10px;
+    clear: left;
+}
+.righthalf
+{
+    width: 44%;
+    margin-left: 26%;
+    border-left:1.5px solid red;
+    border-right:1.5px solid red;
+}
+#characteristic
+{
+    margin-top: 30px;
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+    word-wrap: break-word;
+}
+
+#description
+{
+    width: 600px;
+}
+#comm
+{
+    margin-left: 15%;
+}
+.commentarySEND
+{
+width: auto;
+    height: auto;
+}
+#formadd
+{
+padding-top: 25px;
+}
+
+.commentsBlock2
+{
+    width: auto;
+    min-width: 940px;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+}
